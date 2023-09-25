@@ -17,7 +17,7 @@ public class AppInitializer extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
 
-        AnchorPane root = FXMLLoader.load(getClass().getResource("/view/MainForm.fxml"));
+        AnchorPane root = FXMLLoader.load(getClass().getResource("/View/MainForm.fxml"));
         Scene mainScene = new Scene(root);
         primaryStage.setScene(mainScene);
         primaryStage.setTitle("Hello java FX 2");
